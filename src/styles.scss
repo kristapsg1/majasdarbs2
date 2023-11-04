@@ -1,0 +1,370 @@
+body{
+  font-size: 16px;
+}
+
+
+
+label{
+  width: 100%;
+}
+
+.section-box{
+  padding: 104px;
+}
+
+
+.container{
+  width: 100%;
+  max-width: 428px;
+  padding: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.formclass{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  
+}
+
+
+
+.formclass input[type="text"],
+.formclass input[type="password"],
+.input-boxes input[type="text"],
+.textare-box input[type="text"],
+.textare-box-divi [type="text"],
+.input-box input[type="text"],
+.input-boxes-last input[type="text"]{
+    border: none;
+    background-color: #FAFAFA;
+    display: flex;
+    width: 100%;
+    align-self: stretch
+}
+
+.switch-sub{
+  display: flex;
+  
+  gap: 5px;
+  
+}
+
+.switch{
+  display: flex;
+  align-items: center;
+  
+}
+
+.sub-text{
+  font-size: 14px;
+  color: #484848;
+  
+}
+
+.singin-box{
+  padding-top: 25px;
+}
+
+
+.butt-singin{
+  font-size: 16px;
+  border-radius: 5px;  
+  background-color: #651FFF;
+  border: none;
+  padding: 12px 156px;
+  max-width: 428px;
+  
+  
+}
+
+.forget-box{
+  padding: 32px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.sturisbox{
+  display: flex;
+  background-color: #ECECEE;
+  height: 2px;
+  border-radius: 10px;
+}
+
+
+.buttonabas{
+  display: flex;
+  gap: 10px;
+}
+
+.buttgoogle{
+  border: 1px #ECECEE solid;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  padding: 12px 75px;
+}
+
+.buttface{
+  border: 1px #ECECEE solid;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  padding: 12px 75px;
+}
+
+.end-box{
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+.container-divi{
+  width: 100%;
+  max-width: 665px;
+  padding: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.input-boxes{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding-bottom: 16px;
+}
+
+.input-box {
+  flex-basis: calc(50% - 8px);
+  
+}
+
+
+
+input[type="text"] {
+  width: 100% !important; /* Set the width to 100% with !important */
+}
+
+.textare-box{
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 32px;
+}
+
+textarea {
+  width: 100%;
+}
+
+.submit-box{
+  justify-content: flex-end;
+  display: flex;
+}
+
+.submitbutt{
+  border-radius: 5px;  
+  background-color: #651FFF;
+  border: none;
+  padding: 12px 48px;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.text-box{
+  height: 152px;
+  align-items: flex-start;
+}
+
+.text-box::placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+
+
+.container-tris{
+  width: 100%;
+  max-width: 665px;
+  padding: 32px;
+  
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+}
+.together-box{
+  border-radius: 10px;
+
+  display: flex;
+}
+
+.blue-squear{
+  
+  height: 604px;
+  background-color: #651FFF;
+  padding: 48px 16px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.blue-text{
+  padding-top: 32px;
+}
+
+.cellphone-box{
+  display: flex;
+  padding-top: 32px;
+}
+
+.mail-box{
+  display: flex;
+  padding-top: 16px;
+}
+
+
+.formata-boxs2{
+  padding-left: 32px;
+  
+}
+
+.contact-us{
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.textare-box-divi{
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 32px;
+  
+}
+
+.text-box-divi{
+  height: 84px;
+}
+
+
+
+
+
+
+.container-cetri{
+  width: 100%;
+  max-width: 665px;
+  padding: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.order-detail-box{
+  display: flex;
+  padding-left: 32px;
+  
+  
+}
+
+.order-box{
+  padding-right: 16px;
+}
+
+.check-text-box{
+  padding: 32px;
+}
+
+.second-contact,
+.third-contact{
+  padding-top: 16px;
+}
+
+.first-contact{
+  display: flex;
+  padding-top: 16px;
+  
+}
+
+.square{
+  width: 40px;
+  height: 40px;
+}
+
+.bouth-contacts{
+  display: flex;
+  
+}
+
+.oreder-detail-text{
+  font-size: 20px;
+}
+
+.h5class{
+  font-size: 16px;
+}
+
+.order-box,
+.detail-box {
+    width: 50%;
+}
+
+.h6class{
+  font-size: 14px;
+}
+
+.input-boxes-last{
+  display: flex;
+  gap: 8px;
+  
+}
+
+.input-box-one{
+  width: 50px;
+  flex-basis: calc(50% - 8px);
+}
+
+.input-box-two{
+  width: 25px;
+  flex-basis: calc(25% - 8px);
+}
+
+.lastbox{
+  padding: 32px;
+
+}
+
+.continue-box{
+  justify-content: flex-end;
+  display: flex;
+}
+
+.continuebutt{
+  border-radius: 5px;  
+  background-color: #651FFF;
+  border: none;
+  padding: 12px 48px;
+  justify-content: flex-end;
+  display: flex;
+}
+
+
+
+@media (max-width:601px) {
+  .input-boxes-last {
+      flex-direction: column;
+  }
+}
+
+
+.section-box{
+  background-color: #FAFAFA ;
+}
+
